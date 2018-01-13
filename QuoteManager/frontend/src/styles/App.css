@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: beige;
+  height: 150px;
+  padding: 20px;
+  color: darkolivegreen;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.App-title {
+  font-size: 5em;
+  margin: 15px 0px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#AddBtn
+{
+  margin-left: 20px;
+  color: white;
+  background-color: darkolivegreen;
+  padding: 5px 10px;
+}
+
+input[type="button"]
+{
+  border-radius: 12px;
+  margin: 4px 2px;
+  padding: 5px 10px;
+
+}
+#CancelBtn, #DeleteBtn:hover
+{
+  background-color: indianred;
+}
+
+#SaveBtn
+{
+  background-color: darkseagreen;
+}
+
+#DetailsBtn:hover
+{
+  background-color: lightblue;
+}
+
+
+#EditBtn:hover,#BackBtn:hover
+{
+  background-color: darkkhaki;
+}
+
+
+#DeleteBtn
+{
+  margin-left: 40px;
+}
+
+input[type="text"]
+{
+  border-radius: 12px;
+  margin: 4px;
+  padding: 3px 5px;
+}
+
+#detAut
+{
+  padding: 50px 0px;
+}

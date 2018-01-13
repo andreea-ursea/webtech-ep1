@@ -60,6 +60,8 @@ Quote.hasMany(Tag)
 
 const app = express()
 app.use(bodyParser.json())
+app.use(express.static('../frontend/build'))
+
 
 //---CREEZ TABELELE---
 app.get('/create', (req, res, next) => {
